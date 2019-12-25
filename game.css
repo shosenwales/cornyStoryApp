@@ -1,0 +1,42 @@
+.answer-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid #191970;  
+    background-color: white;
+}
+.answer-container:hover{
+    cursor: pointer;
+    /* box-shadow: 0.1rem 1.0rem 0 rgba(86, 165, 235, 0.25); */
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.answer-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: #191970;
+    color: white;
+}
+.answer-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    text-align: center;
+    font-size:2rem ;
+}
+.hud-main-text{
+    text-align: center;
+}
