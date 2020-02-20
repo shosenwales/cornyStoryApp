@@ -13,28 +13,28 @@ let availableQuestions = [];
 //Question Array
 let questions = [
     {
-        question:"inside which HTML element do we put the javascript?",
-        option1: "<script>",
-        option2: "<javascript>",
-        option3: "<js>",
-        option4: "<scripting>",
-        answer: 1
-    },
-    {
-        question:"what is the file extension for CSS",
-        option1: ".ccs",
-        option2: ".ssc",
-        option3: ".sass",
-        option4: ".css",
+        question:"CRUD stands for?",
+        option1: "Core Read Update Delete",
+        option2: "Core Random Utitlity Data",
+        option3: "Create Random Utility Data",
+        option4: "Create Read Update Delete",
         answer: 4
     },
     {
-        question:"what does CSS stand for?",
-        option1: "Cascaded Stylesheet",
-        option2: "Cascading Stylesheet",
-        option3: "Cascade Stylesheet",
-        option4: "Casting Stylesheet",
-        answer: 2 
+        question:"Api stands for",
+        option1: "Application Programming ifile",
+        option2: "Assembly programming Instructions",
+        option3: "Application Programming Interface",
+        option4: "Accessible Programming Interface",
+        answer: 3
+    },
+    {
+        question:"OOP stands for",
+        option1: "Object Oriented Programming",
+        option2: "Object Organised Program",
+        option3: "Object Only Programming",
+        option4: "Ordered Object Programming",
+        answer: 1 
     }
 ]
 
