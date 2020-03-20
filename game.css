@@ -40,3 +40,15 @@
 .hud-main-text{
     text-align: center;
 }
+
+@media (max-width:650px){
+    .answer-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: #191970;
+    color: white;
+}
+    .answer-text{
+        padding: 1.5rem;
+        width: 100%;
+    }
+}

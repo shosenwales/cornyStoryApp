@@ -97,3 +97,12 @@ input{
     box-shadow: #191970;
 
 }
+
+@media (max-width:650px){
+    .hud-main-text {
+        font-size: 2rem;
+    }
+    #question{
+        font-size: 2rem;
+    }
+}
