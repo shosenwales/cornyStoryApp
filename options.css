@@ -75,3 +75,10 @@ h1{
 #splash.fade{
     opacity: 0;
 }
+
+
+@media (max-width:650px){
+   #splash h1{
+       font-size: 50px;
+   }
+}
